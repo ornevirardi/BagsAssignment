@@ -49,7 +49,7 @@ const Main = () => {
             fontSize={{ base: '16px', md: '20px', lg: '24px' }}
             position="absolute"
           >
-            Revenue Based Finance
+            Revenue Based Financing
           </Heading>
         </CardHeader>
         <Stack divider={<StackDivider borderColor="#868686" borderBottomWidth="2px !important" />} spacing="2">
@@ -65,7 +65,7 @@ const Main = () => {
                 </Text>
               </Flex>
               <Text fontWeight="600" marginTop="14px">
-                Get Funded in <span style={{ fontWeight: 'bold' }}>12 days</span>
+                Get Funded in <span style={{ fontWeight: 'bold' }}>12 days.</span>
               </Text>
             </Box>
           </CardBody>
