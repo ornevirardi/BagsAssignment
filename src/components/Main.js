@@ -23,15 +23,15 @@ const Main = () => {
   const bagsDesktop = 'blue';
 
   return (
-    <Box position="relative">
-      <Flex position="absolute" right="24px" top="-12px" zIndex="3">
+    <Box position="relative" padding="20px">
+      <Flex position="absolute" right="24px" top="10px" zIndex="3">
         <Button backgroundColor="brand.purpleTxt" width="121px" height="24px" borderRadius="6px" color="white">
           Good Fit
         </Button>
       </Flex>
 
       <Card
-        width="432px"
+        maxWidth="432px"
         height="100%"
         borderWidth="2.25px"
         borderRadius="12px"
@@ -77,7 +77,7 @@ const Main = () => {
         </Stack>
       </Card>
       <Card
-        width="432px"
+        maxWidth="432px"
         height="100%"
         borderWidth="2.25px"
         borderRadius="12px"
